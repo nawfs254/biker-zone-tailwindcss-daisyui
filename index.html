@@ -13,7 +13,8 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -22,7 +23,7 @@
             font-family: 'Poppins', sans-serif;
         }
 
-        .font-inter{
+        .font-inter {
             font-family: 'Inter', sans-serif;
         }
     </style>
@@ -298,78 +299,83 @@
         </section>
 
         <!-- FAQ section -->
-        <h1 class="text-3xl font-semibold text-center md:text-5xl py-3">Frequently Asked <span
-                class="text-[#E76F51]">Questions</span></h1>
+        <section>
+            <h1 class="text-3xl font-semibold text-center md:text-5xl py-3">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1>
+            <!-- faq-container -->
+            <div class="flex flex-col items-center lg:flex-row gap-10 font-inter">
+                <img src="./resources/images/others/faq.png" alt="" class="w-1/2">
 
-        <!-- faq-container -->
-        <div class="flex flex-col items-center lg:flex-row gap-10 lg:gap-5 font-inter">
-            <img src="./resources/images/others/faq.png" alt="">
-
-            <!-- Accordian -->
-            <div class=" space-y-4">
-                <div class="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        What are the most important things I should know about riding a bike?
+                <!-- Accordian -->
+                <div class=" space-y-4">
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            What are the most important things I should know about riding a bike?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic
+                                signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                your
+                                bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
                     </div>
-                    <div class="collapse-content">
-                        <p class="text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic
-                            signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your
-                            bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            How can I tell if my helmet is old and I need a new one?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#7E848C]">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consequuntur
+                                quam temporibus aut beatae dolor tempore, eveniet tempora quo reiciendis hic!</p>
+                        </div>
                     </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">
-                        How can I tell if my helmet is old and I need a new one?
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            My bike has been in storage is it safe to ride?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#7E848C]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, non
+                                dolores? Nulla explicabo odit id nemo voluptate laborum ut eius.</p>
+                        </div>
                     </div>
-                    <div class="collapse-content">
-                        <p class="text-[#7E848C]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-                            quam temporibus aut beatae dolor tempore, eveniet tempora quo reiciendis hic!</p>
-                    </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">
-                        My bike has been in storage is it safe to ride?
-                    </div>
-                    <div class="collapse-content">
-                        <p class="text-[#7E848C]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, non
-                            dolores? Nulla explicabo odit id nemo voluptate laborum ut eius.</p>
-                    </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">
-                        What rules should I follow when riding my bike?
-                    </div>
-                    <div class="collapse-content">
-                        <p class="text-[#7E848C]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
-                            consectetur enim molestiae illo ipsum consequatur accusamus aperiam alias ex iste.</p>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            What rules should I follow when riding my bike?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#7E848C]">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellendus
+                                consectetur enim molestiae illo ipsum consequatur accusamus aperiam alias ex iste.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
-    <footer class="footer p-10 bg-neutral text-neutral-content justify-between">
-        <aside class="space-y-6">
-          
-          <span class="space-x-6"><a href="">Download Now</a> <a href="">Licence</a></span>
-          <span class="space-x-6"><a href="">About</a> <a href="">Features</a> <a href="">Pricing</a><a href="">Careers</a><a href="">Help</a><a href="">Privacy Policy</a></span>
-          <span>© 2020 bike. All rights reserved</span>
-        </aside> 
+    <footer class="footer p-10 bg-black text-neutral-content justify-between lg:px-36">
+            <aside class="space-y-6">
 
-        <div>
-          <header class="footer-title">Get The App</header> 
-          <div class="grid grid-flow-col gap-4">
-            <div class="space-y-4">
-                <img src="./resources/images/others/android.png" alt="" class="w-32">
-                <img src="./resources/images/others/ios.png" alt="" class="w-32">
+                <span class="space-x-6"><a href="">Download Now</a> <a href="">Licence</a></span>
+                <span class="space-x-6"><a href="">About</a> <a href="">Features</a> <a href="">Pricing</a><a
+                        href="">Careers</a><a href="">Help</a><a href="">Privacy Policy</a></span>
+                <span>© 2020 bike. All rights reserved</span>
+            </aside>
+    
+            <div>
+                <header class="footer-title">Get The App</header>
+                <div class="grid grid-flow-col gap-4">
+                    <div class="space-y-4">
+                        <img src="./resources/images/others/android.png" alt="" class="w-32">
+                        <img src="./resources/images/others/ios.png" alt="" class="w-32">
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
+    </footer>
 </body>
 
 </html>
